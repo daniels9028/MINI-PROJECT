@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Done</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="h-screen w-full bg-[#F2F2FF]">
+    <header class="w-full bg-[#0a225e] h-24 fixed top-0 left-0">
+      <nav
+        class="max-w-[1444px] mx-auto flex flex-row justify-between lg:justify-center items-center gap-12 h-full font-gummy px-12"
+      >
+        <i class="block text-5xl text-white bx bx-menu lg:hidden"></i>
+        <ul
+          class="lg:flex hidden flex-row justify-center items-center gap-6 text-white text-lg font-bold tracking-[-0.27px] leading-[1.47]"
+        >
+          <li class="hover:text-[#e0ab00] transition-colors duration-300">
+            <a href="/src/index.html">HOME</a>
+          </li>
+          <li class="hover:text-[#e0ab00] transition-colors duration-300">
+            <a href="/src/about.html">ABOUT US</a>
+          </li>
+          <li class="hover:text-[#e0ab00] transition-colors duration-300">
+            <a href="/src/article.html">ARTICLE</a>
+          </li>
+          <li class="hover:text-[#e0ab00] transition-colors duration-300">
+            <a href="/src/outlet.html">OUR OUTLET</a>
+          </li>
+        </ul>
+        <img
+          src="image/logo.png"
+          alt="logo_cw"
+          width="50"
+          height="50"
+          class="transition-all duration-500 cursor-pointer hover:scale-150"
+        />
+        <ul
+          class="lg:flex hidden flex-row justify-center items-center gap-6 text-white text-lg font-bold tracking-[-0.27px] leading-[1.47]"
+        >
+          <li class="hover:text-[#e0ab00] transition-colors duration-300">
+            <a href="/src/facility.html">FACILITY</a>
+          </li>
+          <li class="hover:text-[#e0ab00] transition-colors duration-300">
+            <a href="/src/menu.html">OUR MENU</a>
+          </li>
+          <li class="hover:text-[#e0ab00] transition-colors duration-300">
+            <a href="/src/career.html">CAREER</a>
+          </li>
+          <li class="hover:text-[#e0ab00] transition-colors duration-300">
+            <a href="/src/contact.html">CONTACT US</a>
+          </li>
+        </ul>
+        <div class="flex lg:hidden"></div>
+      </nav>
+    </header>
+
+    <section class="h-[200px] w-full bg-white mt-12">
+      <div
+        class="max-w-[1444px] mx-auto h-[250px] flex justify-center items-center px-12"
+      >
+        <div class="flex flex-col items-center justify-center gap-8">
+          <div
+            class="font-medium font-quicksand text-sm leading-[1.23] tracking-[0.015em] text-[#0A225E] flex flex-row gap-2"
+          >
+            <a href="">Home</a>
+            <span>></span>
+            <p>Outlet</p>
+          </div>
+          <h3
+            class="font-quicksand text-5xl text-[#0A225E] font-bold leading-[32px] tracking-[-0.02em]"
+          >
+            Outlet
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="max-w-[1444px] mx-auto px-14 flex flex-col justify-center items-center lg:mt-14 mt-20"
+    >
+      <div
+        class="grid grid-cols-1 gap-8 xl:grid-cols-3 lg:grid-cols-2 place-items-center"
+      >
+        <div
+          class="overflow-hidden bg-white border-2 rounded-xl h-[550px] w-full border-slate-300"
+        >
+          <img
+            src="image/outlet1.jpg"
+            alt=""
+            class="w-full bg-contain h-[300px]"
+          />
+          <div class="flex flex-col justify-between h-[250px] gap-4 p-8">
+            <div class="flex flex-col gap-4">
+              <h3
+                class="font-bold font-quicksand lg:text-3xl text-xl leading-[1.1] tracking-[.005em] text-[#0A225E] hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+              >
+                Outlet Mempawah
+              </h3>
+              <p
+                class="font-bold text-justify lg:text-lg text-sm leading-[1.46] tracking-[.02em] text-black font-quicksand"
+              >
+                Jl. Ahmad Yani, Tengah, Kec. Mempawah Hilir, Kab. Mempawah
+              </p>
+            </div>
+            <div
+              class="font-quicksand text-[16px] leading-[1.5] text-[#0A225E] font-bold text-justify flex flex-row items-center gap-1 hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+            >
+              READ MORE <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="overflow-hidden bg-white border-2 rounded-xl h-[550px] w-full border-slate-300"
+        >
+          <img
+            src="image/outlet2.jpg"
+            alt=""
+            class="w-full bg-contain h-[300px]"
+          />
+          <div class="flex flex-col justify-between h-[250px] gap-4 p-8">
+            <div class="flex flex-col gap-4">
+              <h3
+                class="font-bold font-quicksand lg:text-3xl text-xl leading-[1.1] tracking-[.005em] text-[#0A225E] hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+              >
+                Outlet Sungai Duri
+              </h3>
+              <p
+                class="font-bold text-justify lg:text-lg text-sm leading-[1.46] tracking-[.02em] text-black font-quicksand"
+              >
+                Jl. Sungai Duri, Bengkayang
+              </p>
+            </div>
+            <div
+              class="font-quicksand text-[16px] leading-[1.5] text-[#0A225E] font-bold text-justify flex flex-row items-center gap-1 hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+            >
+              READ MORE <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="overflow-hidden bg-white border-2 rounded-xl h-[550px] w-full border-slate-300"
+        >
+          <img
+            src="image/outlet3.jpg"
+            alt=""
+            class="w-full bg-contain h-[300px]"
+          />
+          <div class="flex flex-col justify-between h-[250px] gap-4 p-8">
+            <div class="flex flex-col gap-4">
+              <h3
+                class="font-bold font-quicksand lg:text-3xl text-xl leading-[1.1] tracking-[.005em] text-[#0A225E] hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+              >
+                Outlet Sepakat 2
+              </h3>
+              <p
+                class="font-bold text-justify lg:text-lg text-sm leading-[1.46] tracking-[.02em] text-black font-quicksand"
+              >
+                Jl. Sepakat 2, Kel. Bansir Darat, Kec. Pontianak Tenggara
+              </p>
+            </div>
+            <div
+              class="font-quicksand text-[16px] leading-[1.5] text-[#0A225E] font-bold text-justify flex flex-row items-center gap-1 hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+            >
+              READ MORE <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="overflow-hidden bg-white border-2 rounded-xl h-[550px] w-full border-slate-300"
+        >
+          <img
+            src="image/outlet4.jpg"
+            alt=""
+            class="w-full bg-contain h-[300px]"
+          />
+          <div class="flex flex-col justify-between h-[250px] gap-4 p-8">
+            <div class="flex flex-col gap-4">
+              <h3
+                class="font-bold font-quicksand lg:text-3xl text-xl leading-[1.1] tracking-[.005em] text-[#0A225E] hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+              >
+                Outlet Sungai Pinyuh
+              </h3>
+              <p
+                class="font-bold text-justify lg:text-lg text-sm leading-[1.46] tracking-[.02em] text-black font-quicksand"
+              >
+                Sungai Pinyuh
+              </p>
+            </div>
+            <div
+              class="font-quicksand text-[16px] leading-[1.5] text-[#0A225E] font-bold text-justify flex flex-row items-center gap-1 hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+            >
+              READ MORE <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="overflow-hidden bg-white border-2 rounded-xl h-[550px] w-full border-slate-300"
+        >
+          <img
+            src="image/outlet5.jpg"
+            alt=""
+            class="w-full bg-contain h-[300px]"
+          />
+          <div class="flex flex-col justify-between h-[250px] gap-4 p-8">
+            <div class="flex flex-col gap-4">
+              <h3
+                class="font-bold font-quicksand lg:text-3xl text-xl leading-[1.1] tracking-[.005em] text-[#0A225E] hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+              >
+                Outlet Pemangkat
+              </h3>
+              <p
+                class="font-bold text-justify lg:text-lg text-sm leading-[1.46] tracking-[.02em] text-black font-quicksand"
+              >
+                Jl. Moh. Sohor, Pemangkat Kota
+              </p>
+            </div>
+            <div
+              class="font-quicksand text-[16px] leading-[1.5] text-[#0A225E] font-bold text-justify flex flex-row items-center gap-1 hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+            >
+              READ MORE <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="overflow-hidden bg-white border-2 rounded-xl h-[550px] w-full border-slate-300"
+        >
+          <img
+            src="image/outlet6.jpg"
+            alt=""
+            class="w-full bg-contain h-[300px]"
+          />
+          <div class="flex flex-col justify-between h-[250px] gap-4 p-8">
+            <div class="flex flex-col gap-4">
+              <h3
+                class="font-bold font-quicksand lg:text-3xl text-xl leading-[1.1] tracking-[.005em] text-[#0A225E] hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+              >
+                Outlet Sanggau
+              </h3>
+              <p
+                class="font-bold text-justify lg:text-lg text-sm leading-[1.46] tracking-[.02em] text-black font-quicksand"
+              >
+                Jl. Jend. Sudirman, Sanggau
+              </p>
+            </div>
+            <div
+              class="font-quicksand text-[16px] leading-[1.5] text-[#0A225E] font-bold text-justify flex flex-row items-center gap-1 hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+            >
+              READ MORE <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="overflow-hidden bg-white border-2 rounded-xl h-[550px] w-full border-slate-300"
+        >
+          <img
+            src="image/outlet7.png"
+            alt=""
+            class="w-full bg-contain h-[300px]"
+          />
+          <div class="flex flex-col justify-between h-[250px] gap-4 p-8">
+            <div class="flex flex-col gap-4">
+              <h3
+                class="font-bold font-quicksand lg:text-3xl text-xl leading-[1.1] tracking-[.005em] text-[#0A225E] hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+              >
+                Outlet Ketapang
+              </h3>
+              <p
+                class="font-bold text-justify lg:text-lg text-sm leading-[1.46] tracking-[.02em] text-black font-quicksand"
+              >
+                Jl. DI Panjaitan, Ketapang
+              </p>
+            </div>
+            <div
+              class="font-quicksand text-[16px] leading-[1.5] text-[#0A225E] font-bold text-justify flex flex-row items-center gap-1 hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+            >
+              READ MORE <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="overflow-hidden bg-white border-2 rounded-xl h-[550px] w-full border-slate-300"
+        >
+          <img
+            src="image/outlet8.jpg"
+            alt=""
+            class="w-full bg-contain h-[300px]"
+          />
+          <div class="flex flex-col justify-between h-[250px] gap-4 p-8">
+            <div class="flex flex-col gap-4">
+              <h3
+                class="font-bold font-quicksand lg:text-3xl text-xl leading-[1.1] tracking-[.005em] text-[#0A225E] hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+              >
+                Outlet Sekura
+              </h3>
+              <p
+                class="font-bold text-justify lg:text-lg text-sm leading-[1.46] tracking-[.02em] text-black font-quicksand"
+              >
+                Jl. Keramat Sekura, Sambas
+              </p>
+            </div>
+            <div
+              class="font-quicksand text-[16px] leading-[1.5] text-[#0A225E] font-bold text-justify flex flex-row items-center gap-1 hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+            >
+              READ MORE <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="overflow-hidden bg-white border-2 rounded-xl h-[550px] w-full border-slate-300"
+        >
+          <img
+            src="image/outlet9.png"
+            alt=""
+            class="w-full bg-contain h-[300px]"
+          />
+          <div class="flex flex-col justify-between h-[250px] gap-4 p-8">
+            <div class="flex flex-col gap-4">
+              <h3
+                class="font-bold font-quicksand lg:text-3xl text-xl leading-[1.1] tracking-[.005em] text-[#0A225E] hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+              >
+                Outlet Ketapang #2
+              </h3>
+              <p
+                class="font-bold text-justify lg:text-lg text-sm leading-[1.46] tracking-[.02em] text-black font-quicksand"
+              >
+                Jl. Let. Kol. M. Tahir, Delta Pawan
+              </p>
+            </div>
+            <div
+              class="font-quicksand text-[16px] leading-[1.5] text-[#0A225E] font-bold text-justify flex flex-row items-center gap-1 hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+            >
+              READ MORE <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="overflow-hidden bg-white border-2 rounded-xl h-[550px] w-full border-slate-300"
+        >
+          <img
+            src="image/outlet10.jpg"
+            alt=""
+            class="w-full bg-contain h-[300px]"
+          />
+          <div class="flex flex-col justify-between h-[250px] gap-4 p-8">
+            <div class="flex flex-col gap-4">
+              <h3
+                class="font-bold font-quicksand lg:text-3xl text-xl leading-[1.1] tracking-[.005em] text-[#0A225E] hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+              >
+                Outlet Sampit
+              </h3>
+              <p
+                class="font-bold text-justify lg:text-lg text-sm leading-[1.46] tracking-[.02em] text-black font-quicksand"
+              >
+                Jl. MT. Haryono, Mentawa Baru Hulu
+              </p>
+            </div>
+            <div
+              class="font-quicksand text-[16px] leading-[1.5] text-[#0A225E] font-bold text-justify flex flex-row items-center gap-1 hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+            >
+              READ MORE <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="overflow-hidden bg-white border-2 rounded-xl h-[550px] w-full border-slate-300"
+        >
+          <img
+            src="image/outlet11.jpg"
+            alt=""
+            class="w-full bg-contain h-[300px]"
+          />
+          <div class="flex flex-col justify-between h-[250px] gap-4 p-8">
+            <div class="flex flex-col gap-4">
+              <h3
+                class="font-bold font-quicksand lg:text-3xl text-xl leading-[1.1] tracking-[.005em] text-[#0A225E] hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+              >
+                Outlet Malang #1
+              </h3>
+              <p
+                class="font-bold text-justify lg:text-lg text-sm leading-[1.46] tracking-[.02em] text-black font-quicksand"
+              >
+                Jl. Simpang Ijen No.39 Blok B, Oro-oro Dowo, Kec. Klojen, Kota
+                Malang
+              </p>
+            </div>
+            <div
+              class="font-quicksand text-[16px] leading-[1.5] text-[#0A225E] font-bold text-justify flex flex-row items-center gap-1 hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+            >
+              READ MORE <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="overflow-hidden bg-white border-2 rounded-xl h-[550px] w-full border-slate-300"
+        >
+          <img
+            src="image/outlet12.jpg"
+            alt=""
+            class="w-full bg-contain h-[300px]"
+          />
+          <div class="flex flex-col justify-between h-[250px] gap-4 p-8">
+            <div class="flex flex-col gap-4">
+              <h3
+                class="font-bold font-quicksand lg:text-3xl text-xl leading-[1.1] tracking-[.005em] text-[#0A225E] hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+              >
+                Outlet Sintang #3
+              </h3>
+              <p
+                class="font-bold text-justify lg:text-lg text-sm leading-[1.46] tracking-[.02em] text-black font-quicksand"
+              >
+                Jl. Lintas Kalimantan Poros Tengah, Sungai Ukoi
+              </p>
+            </div>
+            <div
+              class="font-quicksand text-[16px] leading-[1.5] text-[#0A225E] font-bold text-justify flex flex-row items-center gap-1 hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+            >
+              READ MORE <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="overflow-hidden bg-white border-2 rounded-xl h-[550px] w-full border-slate-300"
+        >
+          <img
+            src="image/outlet13.jpg"
+            alt=""
+            class="w-full bg-contain h-[300px]"
+          />
+          <div class="flex flex-col justify-between h-[250px] gap-4 p-8">
+            <div class="flex flex-col gap-4">
+              <h3
+                class="font-bold font-quicksand lg:text-3xl text-xl leading-[1.1] tracking-[.005em] text-[#0A225E] hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+              >
+                Outlet Tani Makmur
+              </h3>
+              <p
+                class="font-bold text-justify lg:text-lg text-sm leading-[1.46] tracking-[.02em] text-black font-quicksand"
+              >
+                Jl. Tani Makmur No.2, Akcaya
+              </p>
+            </div>
+            <div
+              class="font-quicksand text-[16px] leading-[1.5] text-[#0A225E] font-bold text-justify flex flex-row items-center gap-1 hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+            >
+              READ MORE <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="overflow-hidden bg-white border-2 rounded-xl h-[550px] w-full border-slate-300"
+        >
+          <img
+            src="image/outlet14.jpg"
+            alt=""
+            class="w-full bg-contain h-[300px]"
+          />
+          <div class="flex flex-col justify-between h-[250px] gap-4 p-8">
+            <div class="flex flex-col gap-4">
+              <h3
+                class="font-bold font-quicksand lg:text-3xl text-xl leading-[1.1] tracking-[.005em] text-[#0A225E] hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+              >
+                Outlet GAIA Bumi Raya City
+              </h3>
+              <p
+                class="font-bold text-justify lg:text-lg text-sm leading-[1.46] tracking-[.02em] text-black font-quicksand"
+              >
+                Lt.1- 26 Gaia Bumi Raya City Mall, Kubu Raya, Pontianak
+              </p>
+            </div>
+            <div
+              class="font-quicksand text-[16px] leading-[1.5] text-[#0A225E] font-bold text-justify flex flex-row items-center gap-1 hover:text-[#e0ab00] transition-colors duration-300 cursor-pointer"
+            >
+              READ MORE <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="w-full bg-[#0a225e] h-[500px] mt-24">
+      <footer
+        class="max-w-[1444px] mx-auto flex flex-col items-center justify-center gap-5 h-full font-gummy px-12"
+      >
+        <img src="image/footer_logo.png" alt="" />
+        <p
+          class="text-white text-lg leading-[30px] tracking-[0.16px] font-quicksand text-center font-extrabold"
+        >
+          Jl. Hm Suwignyo, Ruko Citra Andalas No. 1-5 Lantai 3, Desa/Kelurahan
+          Sungai jawi, Kec. Pontianak, <br />
+          Pontianak Kota, Kota Pontianak, Kalimantan Barat Telpon 0811-5718-181
+        </p>
+
+        <p
+          class="text-white text-sm leading-[30px] tracking-[0.16px] font-quicksand text-center font-extrabold"
+        >
+          APP PRIVACY POLICY
+        </p>
+
+        <div class="flex flex-row items-center justify-center gap-8">
+          <a href="" class="text-2xl text-white"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="" class="text-2xl text-white">
+            <i class="bx bxl-instagram-alt"></i
+          ></a>
+        </div>
+        <p
+          class="text-white text-sm leading-[30px] tracking-[0.16px] font-quicksand text-center font-extrabold"
+        >
+          © 2024 PT CWCOFFEE TERUS MELANGKAH
+        </p>
+      </footer>
+    </section>
+  </body>
+</html>

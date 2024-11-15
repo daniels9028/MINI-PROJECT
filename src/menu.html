@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Done</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="h-screen w-full bg-[#F2F2FF]">
+    <header class="w-full bg-[#0a225e] h-24 fixed top-0 left-0">
+      <nav
+        class="max-w-[1444px] mx-auto flex flex-row justify-between lg:justify-center items-center gap-12 h-full font-gummy px-12"
+      >
+        <i class="block text-5xl text-white bx bx-menu lg:hidden"></i>
+        <ul
+          class="lg:flex hidden flex-row justify-center items-center gap-6 text-white text-lg font-bold tracking-[-0.27px] leading-[1.47]"
+        >
+          <li class="hover:text-[#e0ab00] transition-colors duration-300">
+            <a href="/src/index.html">HOME</a>
+          </li>
+          <li class="hover:text-[#e0ab00] transition-colors duration-300">
+            <a href="/src/about.html">ABOUT US</a>
+          </li>
+          <li class="hover:text-[#e0ab00] transition-colors duration-300">
+            <a href="/src/article.html">ARTICLE</a>
+          </li>
+          <li class="hover:text-[#e0ab00] transition-colors duration-300">
+            <a href="/src/outlet.html">OUR OUTLET</a>
+          </li>
+        </ul>
+        <img
+          src="image/logo.png"
+          alt="logo_cw"
+          width="50"
+          height="50"
+          class="transition-all duration-500 cursor-pointer hover:scale-150"
+        />
+        <ul
+          class="lg:flex hidden flex-row justify-center items-center gap-6 text-white text-lg font-bold tracking-[-0.27px] leading-[1.47]"
+        >
+          <li class="hover:text-[#e0ab00] transition-colors duration-300">
+            <a href="/src/facility.html">FACILITY</a>
+          </li>
+          <li class="hover:text-[#e0ab00] transition-colors duration-300">
+            <a href="/src/menu.html">OUR MENU</a>
+          </li>
+          <li class="hover:text-[#e0ab00] transition-colors duration-300">
+            <a href="/src/career.html">CAREER</a>
+          </li>
+          <li class="hover:text-[#e0ab00] transition-colors duration-300">
+            <a href="/src/contact.html">CONTACT US</a>
+          </li>
+        </ul>
+        <div class="flex lg:hidden"></div>
+      </nav>
+    </header>
+
+    <section class="h-[200px] w-full bg-white mt-12">
+      <div
+        class="max-w-[1444px] mx-auto h-[250px] flex justify-center items-center px-12"
+      >
+        <div class="flex flex-col items-center justify-center gap-8">
+          <div
+            class="font-medium font-quicksand text-sm leading-[1.23] tracking-[0.015em] text-[#0A225E] flex flex-row gap-2"
+          >
+            <a href="">Home</a>
+            <span>></span>
+            <p>Menu</p>
+          </div>
+          <h3
+            class="font-quicksand text-5xl text-[#0A225E] font-bold leading-[32px] tracking-[-0.02em]"
+          >
+            Menu
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="max-w-[1444px] mx-auto px-14 flex flex-col justify-center items-center lg:mt-16 mt-64"
+    >
+      <h2
+        class="text-3xl font-bold leading-[30px] tracking-[-0.63px] text-[#0A225E] font-quicksand mb-10"
+      >
+        PRODUCTS
+      </h2>
+
+      <div
+        class="bg-white shadow-md px-14 w-full shadow-slate-300 rounded-3xl flex flex-col justify-center items-center py-8"
+      >
+        <h2
+          class="text-3xl font-bold leading-[30px] tracking-[-0.63px] text-[#0A225E] font-quicksand mb-10 underline"
+        >
+          COFFEE
+        </h2>
+
+        <div
+          class="grid grid-cols-1 gap-8 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 place-items-center"
+        >
+          <div
+            class="h-80 w-60 overflow-hidden flex flex-col items-center cursor-pointer"
+          >
+            <img
+              src="image/product1.jpg"
+              alt=""
+              class="w-full bg-transparent bg-contain h-52"
+            />
+            <h3
+              class="font-bold text-center font-quicksand text-lg leading-[1.1] tracking-[.005em] text-[#0A225E] mt-12 hover:text-[#e0ab00] transition-colors duration-300 uppercase"
+            >
+              Americano Arabica
+            </h3>
+          </div>
+          <div
+            class="h-80 w-60 overflow-hidden flex flex-col items-center cursor-pointer"
+          >
+            <img
+              src="image/product2.jpg"
+              alt=""
+              class="w-full bg-transparent bg-contain h-52"
+            />
+            <h3
+              class="font-bold text-center font-quicksand text-lg leading-[1.1] tracking-[.005em] text-[#0A225E] mt-12 hover:text-[#e0ab00] transition-colors duration-300 uppercase"
+            >
+              Arabica Coffee Milk
+            </h3>
+          </div>
+          <div
+            class="h-80 w-60 overflow-hidden flex flex-col items-center cursor-pointer"
+          >
+            <img
+              src="image/product3.jpg"
+              alt=""
+              class="w-full bg-transparent bg-contain h-52"
+            />
+            <h3
+              class="font-bold text-center font-quicksand text-lg leading-[1.1] tracking-[.005em] text-[#0A225E] mt-12 hover:text-[#e0ab00] transition-colors duration-300 uppercase"
+            >
+              Arenga Coffee
+            </h3>
+          </div>
+          <div
+            class="h-80 w-60 overflow-hidden flex flex-col items-center cursor-pointer"
+          >
+            <img
+              src="image/product4.jpg"
+              alt=""
+              class="w-full bg-transparent bg-contain h-52"
+            />
+            <h3
+              class="font-bold text-center font-quicksand text-lg leading-[1.1] tracking-[.005em] text-[#0A225E] mt-12 hover:text-[#e0ab00] transition-colors duration-300 uppercase"
+            >
+              Avocado Coffee
+            </h3>
+          </div>
+          <div
+            class="h-80 w-60 overflow-hidden flex flex-col items-center cursor-pointer"
+          >
+            <img
+              src="image/product5.jpg"
+              alt=""
+              class="w-full bg-transparent bg-contain h-52"
+            />
+            <h3
+              class="font-bold text-center font-quicksand text-lg leading-[1.1] tracking-[.005em] text-[#0A225E] mt-12 hover:text-[#e0ab00] transition-colors duration-300 uppercase"
+            >
+              Black Sesame Coffee
+            </h3>
+          </div>
+          <div
+            class="h-80 w-60 overflow-hidden flex flex-col items-center cursor-pointer"
+          >
+            <img
+              src="image/product6.jpg"
+              alt=""
+              class="w-full bg-transparent bg-contain h-52"
+            />
+            <h3
+              class="font-bold text-center font-quicksand text-lg leading-[1.1] tracking-[.005em] text-[#0A225E] mt-12 hover:text-[#e0ab00] transition-colors duration-300 uppercase"
+            >
+              Caffe Latte
+            </h3>
+          </div>
+          <div
+            class="h-80 w-60 overflow-hidden flex flex-col items-center cursor-pointer"
+          >
+            <img
+              src="image/product7.jpg"
+              alt=""
+              class="w-full bg-transparent bg-contain h-52"
+            />
+            <h3
+              class="font-bold text-center font-quicksand text-lg leading-[1.1] tracking-[.005em] text-[#0A225E] mt-12 hover:text-[#e0ab00] transition-colors duration-300 uppercase"
+            >
+              Cappucino
+            </h3>
+          </div>
+          <div
+            class="h-80 w-60 overflow-hidden flex flex-col items-center cursor-pointer"
+          >
+            <img
+              src="image/product8.jpg"
+              alt=""
+              class="w-full bg-transparent bg-contain h-52"
+            />
+            <h3
+              class="font-bold text-center font-quicksand text-lg leading-[1.1] tracking-[.005em] text-[#0A225E] mt-12 hover:text-[#e0ab00] transition-colors duration-300 uppercase"
+            >
+              Cappucino Cincau
+            </h3>
+          </div>
+          <div
+            class="h-80 w-60 overflow-hidden flex flex-col items-center cursor-pointer"
+          >
+            <img
+              src="image/product9.jpg"
+              alt=""
+              class="w-full bg-transparent bg-contain h-52"
+            />
+            <h3
+              class="font-bold text-center font-quicksand text-lg leading-[1.1] tracking-[.005em] text-[#0A225E] mt-12 hover:text-[#e0ab00] transition-colors duration-300 uppercase"
+            >
+              Caramel Coffee
+            </h3>
+          </div>
+          <div
+            class="h-80 w-60 overflow-hidden flex flex-col items-center cursor-pointer"
+          >
+            <img
+              src="image/product10.jpg"
+              alt=""
+              class="w-full bg-transparent bg-contain h-52"
+            />
+            <h3
+              class="font-bold text-center font-quicksand text-lg leading-[1.1] tracking-[.005em] text-[#0A225E] mt-12 hover:text-[#e0ab00] transition-colors duration-300 uppercase"
+            >
+              Choco Coffee
+            </h3>
+          </div>
+          <div
+            class="h-80 w-60 overflow-hidden flex flex-col items-center cursor-pointer"
+          >
+            <img
+              src="image/product11.jpg"
+              alt=""
+              class="w-full bg-transparent bg-contain h-52"
+            />
+            <h3
+              class="font-bold text-center font-quicksand text-lg leading-[1.1] tracking-[.005em] text-[#0A225E] mt-12 hover:text-[#e0ab00] transition-colors duration-300 uppercase"
+            >
+              Classic Caffe Latte
+            </h3>
+          </div>
+          <div
+            class="h-80 w-60 overflow-hidden flex flex-col items-center cursor-pointer"
+          >
+            <img
+              src="image/product12.jpg"
+              alt=""
+              class="w-full bg-transparent bg-contain h-52"
+            />
+            <h3
+              class="font-bold text-center font-quicksand text-lg leading-[1.1] tracking-[.005em] text-[#0A225E] mt-12 hover:text-[#e0ab00] transition-colors duration-300 uppercase"
+            >
+              Espresso Romano
+            </h3>
+          </div>
+          <div
+            class="h-80 w-60 overflow-hidden flex flex-col items-center cursor-pointer"
+          >
+            <img
+              src="image/product13.jpg"
+              alt=""
+              class="w-full bg-transparent bg-contain h-52"
+            />
+            <h3
+              class="font-bold text-center font-quicksand text-lg leading-[1.1] tracking-[.005em] text-[#0A225E] mt-12 hover:text-[#e0ab00] transition-colors duration-300 uppercase"
+            >
+              Hazelnut Coffee Milk
+            </h3>
+          </div>
+          <div
+            class="h-80 w-60 overflow-hidden flex flex-col items-center cursor-pointer"
+          >
+            <img
+              src="image/product14.jpg"
+              alt=""
+              class="w-full bg-transparent bg-contain h-52"
+            />
+            <h3
+              class="font-bold text-center font-quicksand text-lg leading-[1.1] tracking-[.005em] text-[#0A225E] mt-12 hover:text-[#e0ab00] transition-colors duration-300 uppercase"
+            >
+              Long Black Robusta
+            </h3>
+          </div>
+          <div
+            class="h-80 w-60 overflow-hidden flex flex-col items-center cursor-pointer"
+          >
+            <img
+              src="image/product15.jpg"
+              alt=""
+              class="w-full bg-transparent bg-contain h-52"
+            />
+            <h3
+              class="font-bold text-center font-quicksand text-lg leading-[1.1] tracking-[.005em] text-[#0A225E] mt-12 hover:text-[#e0ab00] transition-colors duration-300 uppercase"
+            >
+              Oreo Coffee
+            </h3>
+          </div>
+          <div
+            class="h-80 w-60 overflow-hidden flex flex-col items-center cursor-pointer"
+          >
+            <img
+              src="image/product16.jpg"
+              alt=""
+              class="w-full bg-transparent bg-contain h-52"
+            />
+            <h3
+              class="font-bold text-center font-quicksand text-lg leading-[1.1] tracking-[.005em] text-[#0A225E] mt-12 hover:text-[#e0ab00] transition-colors duration-300 uppercase"
+            >
+              Robusta Coffee Milk
+            </h3>
+          </div>
+          <div
+            class="h-80 w-60 overflow-hidden flex flex-col items-center cursor-pointer"
+          >
+            <img
+              src="image/product17.jpg"
+              alt=""
+              class="w-full bg-transparent bg-contain h-52"
+            />
+            <h3
+              class="font-bold text-center font-quicksand text-lg leading-[1.1] tracking-[.005em] text-[#0A225E] mt-12 hover:text-[#e0ab00] transition-colors duration-300 uppercase"
+            >
+              Vanilla Coffee
+            </h3>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="bg-white shadow-md px-14 w-full shadow-slate-300 rounded-3xl flex flex-col justify-center items-center py-8 mt-12"
+      >
+        <h2
+          class="text-3xl font-bold leading-[30px] tracking-[-0.63px] text-[#0A225E] font-quicksand mb-10 underline"
+        >
+          NON COFFEE
+        </h2>
+
+        <div
+          class="grid grid-cols-1 gap-8 xl:grid-cols-4 lg:grid-cols-3md:grid-cols-2 place-items-center"
+        >
+          <div
+            class="h-80 w-60 overflow-hidden flex flex-col items-center cursor-pointer"
+          >
+            <img
+              src="image/noncoffee1.jpg"
+              alt=""
+              class="w-full bg-transparent bg-contain h-52"
+            />
+            <h3
+              class="font-bold text-center font-quicksand text-lg leading-[1.1] tracking-[.005em] text-[#0A225E] mt-12 hover:text-[#e0ab00] transition-colors duration-300 uppercase"
+            >
+              Avocado Latte
+            </h3>
+          </div>
+          <div
+            class="h-80 w-60 overflow-hidden flex flex-col items-center cursor-pointer"
+          >
+            <img
+              src="image/noncoffee2.jpg"
+              alt=""
+              class="w-full bg-transparent bg-contain h-52"
+            />
+            <h3
+              class="font-bold text-center font-quicksand text-lg leading-[1.1] tracking-[.005em] text-[#0A225E] mt-12 hover:text-[#e0ab00] transition-colors duration-300 uppercase"
+            >
+              Black Sesame Latte
+            </h3>
+          </div>
+          <div
+            class="h-80 w-60 overflow-hidden flex flex-col items-center cursor-pointer"
+          >
+            <img
+              src="image/noncoffee3.jpg"
+              alt=""
+              class="w-full bg-transparent bg-contain h-52"
+            />
+            <h3
+              class="font-bold text-center font-quicksand text-lg leading-[1.1] tracking-[.005em] text-[#0A225E] mt-12 hover:text-[#e0ab00] transition-colors duration-300 uppercase"
+            >
+              Brown Sugar Boba Milk
+            </h3>
+          </div>
+          <div
+            class="h-80 w-60 overflow-hidden flex flex-col items-center cursor-pointer"
+          >
+            <img
+              src="image/noncoffee4.jpg"
+              alt=""
+              class="w-full bg-transparent bg-contain h-52"
+            />
+            <h3
+              class="font-bold text-center font-quicksand text-lg leading-[1.1] tracking-[.005em] text-[#0A225E] mt-12 hover:text-[#e0ab00] transition-colors duration-300 uppercase"
+            >
+              Choco Nut
+            </h3>
+          </div>
+          <div
+            class="h-80 w-60 overflow-hidden flex flex-col items-center cursor-pointer"
+          >
+            <img
+              src="image/noncoffee5.jpg"
+              alt=""
+              class="w-full bg-transparent bg-contain h-52"
+            />
+            <h3
+              class="font-bold text-center font-quicksand text-lg leading-[1.1] tracking-[.005em] text-[#0A225E] mt-12 hover:text-[#e0ab00] transition-colors duration-300 uppercase"
+            >
+              Cookies N Cream
+            </h3>
+          </div>
+          <div
+            class="h-80 w-60 overflow-hidden flex flex-col items-center cursor-pointer"
+          >
+            <img
+              src="image/noncoffee6.jpg"
+              alt=""
+              class="w-full bg-transparent bg-contain h-52"
+            />
+            <h3
+              class="font-bold text-center font-quicksand text-lg leading-[1.1] tracking-[.005em] text-[#0A225E] mt-12 hover:text-[#e0ab00] transition-colors duration-300 uppercase"
+            >
+              Matcha Boba Latte
+            </h3>
+          </div>
+          <div
+            class="h-80 w-60 overflow-hidden flex flex-col items-center cursor-pointer"
+          >
+            <img
+              src="image/noncoffee7.jpg"
+              alt=""
+              class="w-full bg-transparent bg-contain h-52"
+            />
+            <h3
+              class="font-bold text-center font-quicksand text-lg leading-[1.1] tracking-[.005em] text-[#0A225E] mt-12 hover:text-[#e0ab00] transition-colors duration-300 uppercase"
+            >
+              Milo Choco Chips
+            </h3>
+          </div>
+          <div
+            class="h-80 w-60 overflow-hidden flex flex-col items-center cursor-pointer"
+          >
+            <img
+              src="image/noncoffee8.jpg"
+              alt=""
+              class="w-full bg-transparent bg-contain h-52"
+            />
+            <h3
+              class="font-bold text-center font-quicksand text-lg leading-[1.1] tracking-[.005em] text-[#0A225E] mt-12 hover:text-[#e0ab00] transition-colors duration-300 uppercase"
+            >
+              Milo Latte
+            </h3>
+          </div>
+          <div
+            class="h-80 w-60 overflow-hidden flex flex-col items-center cursor-pointer"
+          >
+            <img
+              src="image/noncoffee9.jpg"
+              alt=""
+              class="w-full bg-transparent bg-contain h-52"
+            />
+            <h3
+              class="font-bold text-center font-quicksand text-lg leading-[1.1] tracking-[.005em] text-[#0A225E] mt-12 hover:text-[#e0ab00] transition-colors duration-300 uppercase"
+            >
+              Strawberry Red Velvet
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="w-full bg-[#0a225e] h-[500px] mt-24">
+      <footer
+        class="max-w-[1444px] mx-auto flex flex-col items-center justify-center gap-5 h-full font-gummy px-12"
+      >
+        <img src="image/footer_logo.png" alt="" />
+        <p
+          class="text-white text-lg leading-[30px] tracking-[0.16px] font-quicksand text-center font-extrabold"
+        >
+          Jl. Hm Suwignyo, Ruko Citra Andalas No. 1-5 Lantai 3, Desa/Kelurahan
+          Sungai jawi, Kec. Pontianak, <br />
+          Pontianak Kota, Kota Pontianak, Kalimantan Barat Telpon 0811-5718-181
+        </p>
+
+        <p
+          class="text-white text-sm leading-[30px] tracking-[0.16px] font-quicksand text-center font-extrabold"
+        >
+          APP PRIVACY POLICY
+        </p>
+
+        <div class="flex flex-row items-center justify-center gap-8">
+          <a href="" class="text-2xl text-white"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="" class="text-2xl text-white">
+            <i class="bx bxl-instagram-alt"></i
+          ></a>
+        </div>
+        <p
+          class="text-white text-sm leading-[30px] tracking-[0.16px] font-quicksand text-center font-extrabold"
+        >
+          © 2024 PT CWCOFFEE TERUS MELANGKAH
+        </p>
+      </footer>
+    </section>
+  </body>
+</html>

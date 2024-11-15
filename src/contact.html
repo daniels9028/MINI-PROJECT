@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Done</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="h-screen w-full bg-[#F2F2FF]">
+    <header class="w-full bg-[#0a225e] h-24 fixed top-0 left-0">
+      <nav
+        class="max-w-[1444px] mx-auto flex flex-row justify-between lg:justify-center items-center gap-12 h-full font-gummy px-12"
+      >
+        <i class="block text-5xl text-white bx bx-menu lg:hidden"></i>
+        <ul
+          class="lg:flex hidden flex-row justify-center items-center gap-6 text-white text-lg font-bold tracking-[-0.27px] leading-[1.47]"
+        >
+          <li class="hover:text-[#e0ab00] transition-colors duration-300">
+            <a href="/src/index.html">HOME</a>
+          </li>
+          <li class="hover:text-[#e0ab00] transition-colors duration-300">
+            <a href="/src/about.html">ABOUT US</a>
+          </li>
+          <li class="hover:text-[#e0ab00] transition-colors duration-300">
+            <a href="/src/article.html">ARTICLE</a>
+          </li>
+          <li class="hover:text-[#e0ab00] transition-colors duration-300">
+            <a href="/src/outlet.html">OUR OUTLET</a>
+          </li>
+        </ul>
+        <img
+          src="image/logo.png"
+          alt="logo_cw"
+          width="50"
+          height="50"
+          class="transition-all duration-500 cursor-pointer hover:scale-150"
+        />
+        <ul
+          class="lg:flex hidden flex-row justify-center items-center gap-6 text-white text-lg font-bold tracking-[-0.27px] leading-[1.47]"
+        >
+          <li class="hover:text-[#e0ab00] transition-colors duration-300">
+            <a href="/src/facility.html">FACILITY</a>
+          </li>
+          <li class="hover:text-[#e0ab00] transition-colors duration-300">
+            <a href="/src/menu.html">OUR MENU</a>
+          </li>
+          <li class="hover:text-[#e0ab00] transition-colors duration-300">
+            <a href="/src/career.html">CAREER</a>
+          </li>
+          <li class="hover:text-[#e0ab00] transition-colors duration-300">
+            <a href="/src/contact.html">CONTACT US</a>
+          </li>
+        </ul>
+        <div class="flex lg:hidden"></div>
+      </nav>
+    </header>
+
+    <section class="h-[200px] w-full bg-white mt-12">
+      <div
+        class="max-w-[1444px] mx-auto h-[250px] flex justify-center items-center px-12"
+      >
+        <div class="flex flex-col items-center justify-center gap-8">
+          <div
+            class="font-medium font-quicksand text-sm leading-[1.23] tracking-[0.015em] text-[#0A225E] flex flex-row gap-2"
+          >
+            <a href="">Home</a>
+            <span>></span>
+            <p>Contact</p>
+          </div>
+          <h3
+            class="font-quicksand text-5xl text-[#0A225E] font-bold leading-[32px] tracking-[-0.02em]"
+          >
+            Contact
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="max-w-[1444px] mx-auto px-14 flex flex-col justify-center items-center lg:mt-16 mt-32"
+    >
+      <div
+        class="bg-white shadow-md px-14 w-full shadow-slate-300 rounded-3xl flex flex-col justify-center items-center py-8"
+      >
+        <div class="flex flex-row justify-center gap-8 w-full">
+          <div class="w-1/2 flex flex-col gap-6">
+            <h4 class="font-quicksand text-3xl font-black text-[#0A225E]">
+              Send Question
+            </h4>
+            <div class="flex flex-col gap-3">
+              <label
+                for=""
+                class="font-quicksand text-base text-black font-bold"
+                >Your Name</label
+              >
+              <input
+                class="bg-[#F2F2FF] rounded-md border border-slate-400 h-12 p-4 w-full"
+                type="text"
+              />
+            </div>
+            <div class="flex flex-col gap-3">
+              <label
+                for=""
+                class="font-quicksand text-base text-black font-bold"
+                >Your Email</label
+              >
+              <input
+                class="bg-[#F2F2FF] rounded-md border border-slate-400 h-12 p-4 w-full"
+                type="text"
+              />
+            </div>
+            <div class="flex flex-col gap-3">
+              <label
+                for=""
+                class="font-quicksand text-base text-black font-bold"
+                >Your Message</label
+              >
+              <textarea
+                class="bg-[#F2F2FF] rounded-md border border-slate-400 p-4 w-full"
+                type="text"
+                rows="5"
+              ></textarea>
+            </div>
+            <button
+              class="bg-[#0A225E] w-[200px] text-white rounded-full px-4 py-4 font-quicksand font-bold text-lg hover:text-[#e0ab00] transition-colors duration-300"
+            >
+              Send Message
+            </button>
+          </div>
+          <div class="w-1/2 flex flex-col gap-8">
+            <div class="flex flex-col gap-4">
+              <h4 class="font-quicksand text-3xl font-black text-[#0A225E]">
+                Phones
+              </h4>
+              <div class="flex flex-row items-center gap-2">
+                <div
+                  class="bg-[#0A225E] text-white rounded-full text-2xl px-2 py-1"
+                >
+                  <i class="bx bx-phone"></i>
+                </div>
+                <span class="font-quicksand text-lg font-medium"
+                  >+628115736900 (Customer Service)</span
+                >
+              </div>
+              <div class="flex flex-row items-center gap-2">
+                <div
+                  class="bg-[#0A225E] text-white rounded-full text-2xl px-2 py-1"
+                >
+                  <i class="bx bx-phone"></i>
+                </div>
+                <span class="font-quicksand text-lg font-medium">
+                  +628115753900 (Marketing)
+                </span>
+              </div>
+            </div>
+            <div class="flex flex-col gap-4">
+              <h4 class="font-quicksand text-3xl font-black text-[#0A225E]">
+                Email
+              </h4>
+              <div class="flex flex-row items-center gap-2">
+                <div
+                  class="bg-[#0A225E] text-white rounded-full text-2xl px-2 py-1"
+                >
+                  <i class="bx bx-envelope"></i>
+                </div>
+                <span class="font-quicksand text-lg font-medium"
+                  >cwcoffeeindonesia@gmail.com</span
+                >
+              </div>
+            </div>
+            <div class="flex flex-col gap-4">
+              <h4 class="font-quicksand text-3xl font-black text-[#0A225E]">
+                Opening Hours
+              </h4>
+              <div class="flex flex-row items-center gap-2">
+                <div
+                  class="bg-[#0A225E] text-white rounded-full text-2xl px-2 py-1"
+                >
+                  <i class="bx bx-time-five"></i>
+                </div>
+                <span class="font-quicksand text-lg font-medium"
+                  >Senin - Minggu 24/7</span
+                >
+              </div>
+            </div>
+            <div class="flex flex-col gap-4">
+              <h4 class="font-quicksand text-3xl font-black text-[#0A225E]">
+                Follow Us
+              </h4>
+              <div class="flex flex-row items-center gap-6">
+                <div
+                  class="bg-[#0A225E] text-white rounded-full text-2xl px-2 py-1"
+                >
+                  <i class="bx bxl-facebook"></i>
+                </div>
+                <div
+                  class="bg-[#0A225E] text-white rounded-full text-2xl px-2 py-1"
+                >
+                  <i class="bx bxl-instagram-alt"></i>
+                </div>
+                <div
+                  class="bg-[#0A225E] text-white rounded-full text-2xl px-2 py-1"
+                >
+                  <i class="bx bxl-whatsapp"></i>
+                </div>
+                <div
+                  class="bg-[#0A225E] text-white rounded-full text-2xl px-2 py-1"
+                >
+                  <i class="bx bxl-youtube"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="w-full bg-[#0a225e] h-[500px] mt-24">
+      <footer
+        class="max-w-[1444px] mx-auto flex flex-col items-center justify-center gap-5 h-full font-gummy px-12"
+      >
+        <img src="image/footer_logo.png" alt="" />
+        <p
+          class="text-white text-lg leading-[30px] tracking-[0.16px] font-quicksand text-center font-extrabold"
+        >
+          Jl. Hm Suwignyo, Ruko Citra Andalas No. 1-5 Lantai 3, Desa/Kelurahan
+          Sungai jawi, Kec. Pontianak, <br />
+          Pontianak Kota, Kota Pontianak, Kalimantan Barat Telpon 0811-5718-181
+        </p>
+
+        <p
+          class="text-white text-sm leading-[30px] tracking-[0.16px] font-quicksand text-center font-extrabold"
+        >
+          APP PRIVACY POLICY
+        </p>
+
+        <div class="flex flex-row items-center justify-center gap-8">
+          <a href="" class="text-2xl text-white"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="" class="text-2xl text-white">
+            <i class="bx bxl-instagram-alt"></i
+          ></a>
+        </div>
+        <p
+          class="text-white text-sm leading-[30px] tracking-[0.16px] font-quicksand text-center font-extrabold"
+        >
+          © 2024 PT CWCOFFEE TERUS MELANGKAH
+        </p>
+      </footer>
+    </section>
+  </body>
+</html>
