@@ -89,20 +89,22 @@
     </section>
 
     <section
-      class="max-w-[1444px] mx-auto px-14 flex flex-col justify-center items-center lg:mt-16 mt-32"
+      class="max-w-[1444px] mx-auto lg:px-14 px-7 flex flex-col justify-center items-center lg:mt-16 mt-32"
     >
       <div
-        class="bg-white shadow-md px-14 w-full shadow-slate-300 rounded-3xl flex flex-col justify-center items-center py-8"
+        class="flex flex-col items-center justify-center w-full py-8 bg-white shadow-md px-14 shadow-slate-300 rounded-3xl"
       >
-        <div class="flex flex-row justify-center gap-8 w-full">
-          <div class="w-1/2 flex flex-col gap-6">
+        <div
+          class="flex flex-col-reverse justify-center w-full gap-8 lg:flex-row"
+        >
+          <div class="flex flex-col w-full gap-6 lg:w-1/2">
             <h4 class="font-quicksand text-3xl font-black text-[#0A225E]">
               Send Question
             </h4>
             <div class="flex flex-col gap-3">
               <label
                 for=""
-                class="font-quicksand text-base text-black font-bold"
+                class="text-base font-bold text-black font-quicksand"
                 >Your Name</label
               >
               <input
@@ -113,7 +115,7 @@
             <div class="flex flex-col gap-3">
               <label
                 for=""
-                class="font-quicksand text-base text-black font-bold"
+                class="text-base font-bold text-black font-quicksand"
                 >Your Email</label
               >
               <input
@@ -124,7 +126,7 @@
             <div class="flex flex-col gap-3">
               <label
                 for=""
-                class="font-quicksand text-base text-black font-bold"
+                class="text-base font-bold text-black font-quicksand"
                 >Your Message</label
               >
               <textarea
@@ -139,28 +141,28 @@
               Send Message
             </button>
           </div>
-          <div class="w-1/2 flex flex-col gap-8">
+          <div class="flex flex-col w-full gap-8 lg:w-1/2">
             <div class="flex flex-col gap-4">
               <h4 class="font-quicksand text-3xl font-black text-[#0A225E]">
                 Phones
               </h4>
-              <div class="flex flex-row items-center gap-2">
+              <div class="flex flex-col gap-2 lg:flex-row lg:items-center">
                 <div
-                  class="bg-[#0A225E] text-white rounded-full text-2xl px-2 py-1"
+                  class="bg-[#0A225E] text-white rounded-full text-center w-10 text-2xl px-2 py-1"
                 >
                   <i class="bx bx-phone"></i>
                 </div>
-                <span class="font-quicksand text-lg font-medium"
+                <span class="text-lg font-medium font-quicksand text-wrap"
                   >+628115736900 (Customer Service)</span
                 >
               </div>
-              <div class="flex flex-row items-center gap-2">
+              <div class="flex flex-col gap-2 lg:flex-row lg:items-center">
                 <div
-                  class="bg-[#0A225E] text-white rounded-full text-2xl px-2 py-1"
+                  class="bg-[#0A225E] text-white rounded-full text-center w-10 text-2xl px-2 py-1"
                 >
                   <i class="bx bx-phone"></i>
                 </div>
-                <span class="font-quicksand text-lg font-medium">
+                <span class="text-lg font-medium font-quicksand">
                   +628115753900 (Marketing)
                 </span>
               </div>
@@ -169,13 +171,13 @@
               <h4 class="font-quicksand text-3xl font-black text-[#0A225E]">
                 Email
               </h4>
-              <div class="flex flex-row items-center gap-2">
+              <div class="flex flex-col gap-2 lg:flex-row lg:items-center">
                 <div
-                  class="bg-[#0A225E] text-white rounded-full text-2xl px-2 py-1"
+                  class="bg-[#0A225E] text-white rounded-full text-center w-10 text-2xl px-2 py-1"
                 >
                   <i class="bx bx-envelope"></i>
                 </div>
-                <span class="font-quicksand text-lg font-medium"
+                <span class="text-lg font-medium font-quicksand"
                   >cwcoffeeindonesia@gmail.com</span
                 >
               </div>
@@ -184,13 +186,13 @@
               <h4 class="font-quicksand text-3xl font-black text-[#0A225E]">
                 Opening Hours
               </h4>
-              <div class="flex flex-row items-center gap-2">
+              <div class="flex flex-col gap-2 lg:flex-row lg:items-center">
                 <div
-                  class="bg-[#0A225E] text-white rounded-full text-2xl px-2 py-1"
+                  class="bg-[#0A225E] text-white rounded-full text-center w-10 text-2xl px-2 py-1"
                 >
                   <i class="bx bx-time-five"></i>
                 </div>
-                <span class="font-quicksand text-lg font-medium"
+                <span class="text-lg font-medium font-quicksand"
                   >Senin - Minggu 24/7</span
                 >
               </div>
@@ -229,11 +231,11 @@
 
     <section class="w-full bg-[#0a225e] h-[500px] mt-24">
       <footer
-        class="max-w-[1444px] mx-auto flex flex-col items-center justify-center gap-5 h-full font-gummy px-12"
+        class="max-w-[1444px] mx-auto flex flex-col items-center justify-center gap-5 h-full font-gummy px-12 py-10"
       >
-        <img src="image/footer_logo.png" alt="" />
+        <img src="image/footer_logo.png" alt="" class="h-40 bg-contain" />
         <p
-          class="text-white text-lg leading-[30px] tracking-[0.16px] font-quicksand text-center font-extrabold"
+          class="text-white lg:text-lg text-sm leading-[30px] tracking-[0.16px] font-quicksand text-center font-extrabold"
         >
           Jl. Hm Suwignyo, Ruko Citra Andalas No. 1-5 Lantai 3, Desa/Kelurahan
           Sungai jawi, Kec. Pontianak, <br />
@@ -241,12 +243,12 @@
         </p>
 
         <p
-          class="text-white text-sm leading-[30px] tracking-[0.16px] font-quicksand text-center font-extrabold"
+          class="text-white lg:text-sm text-xs leading-[30px] tracking-[0.16px] font-quicksand text-center font-extrabold"
         >
           APP PRIVACY POLICY
         </p>
 
-        <div class="flex flex-row items-center justify-center gap-8">
+        <div class="flex flex-row items-center justify-center gap-6 lg:gap-8">
           <a href="" class="text-2xl text-white"
             ><i class="bx bxl-facebook"></i
           ></a>
@@ -255,7 +257,7 @@
           ></a>
         </div>
         <p
-          class="text-white text-sm leading-[30px] tracking-[0.16px] font-quicksand text-center font-extrabold"
+          class="text-white lg:text-sm text-sm leading-[30px] tracking-[0.16px] font-quicksand text-center font-extrabold"
         >
           © 2024 PT CWCOFFEE TERUS MELANGKAH
         </p>
